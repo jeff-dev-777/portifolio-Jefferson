@@ -1,0 +1,55 @@
+@use '../variables'
+@use '../mixings'
+
+#information
+     @include mixings.center
+     flex-direction: column
+     background-color: black
+     padding: 1rem
+     margin-bottom: 2rem
+     text-align: left
+     width: 100%
+     border-radius: variables.$card-border-radius
+
+     .info-card
+        @include mixings.center
+        justify-content: flex-start
+        gap: 1rem
+        padding-bottom: .8rem
+        margin-bottom: .8rem
+        border-bottom: 1px solid #444
+        width: 100%
+
+        h3
+            color: variables.$text-color-secundary
+            font-size: 18px
+            margin-bottom: .5rem
+
+        p
+            color: variables.$text-color
+            font-weight: bold
+            
+        svg
+            background-color: variables.$bg-color
+            padding: .4rem
+            width: 2rem
+            height: 2rem
+            border-radius: variables.$card-border-radius
+
+        
+
+        #pin-icon
+            color: #6ab5b9
+
+        #email-icon
+            color: #c17ceb
+
+        
+
+      
+            
+
+        
+        
+
+    

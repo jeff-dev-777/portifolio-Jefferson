@@ -1,0 +1,41 @@
+@use '../variables'
+@use '../mixings'
+
+
+#social-networks
+     gap: 1rem
+     @include mixings.center
+     margin: 1rem 0
+   
+    
+
+     .social-btn
+        gap: 1rem
+        padding: .6rem
+        background-color: black
+        border-radius: variables.$card-border-radius
+        color: black
+        font-size: 1.3rem
+        @include mixings.center
+
+     #linkedin
+        color: #0072b1
+
+     #github
+        color: #111
+
+     #whatsapp
+        color: #25d366
+
+     :hover
+        background-color: black
+        >svg
+            color: variables.$text-color
+
+    
+       
+    
+
+        
+
+    
